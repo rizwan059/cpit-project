@@ -1,0 +1,617 @@
+<!doctype html>
+
+<head>
+    <title>CPIT</title>
+</head>
+<style>
+    .heading {
+        width: 100%;
+        height: 50px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+
+    .tabeerContainer {}
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    .img1 {
+        width: 100%;
+        height: 600px;
+        padding-top: 10px;
+        border-radius: 20px;
+        margin: 10px auto;
+    }
+
+    #donate:hover {
+        color: black;
+    }
+
+    .donateContainer {
+        width: 100%;
+        height: 300px;
+        background-image: url('donate.jfif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 10px;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+
+    .donateChildContainer {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        gap: 600px;
+    }
+
+    #btn2 {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+    }
+
+    #btn2:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .raisedCauses {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+
+    }
+
+    #relief {
+        background-image: url("relief.png");
+        border-radius: 20px;
+
+    }
+
+    #raisedCauses {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .donate-btn {
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 120px;
+        height: 40px;
+        margin-top: 40px;
+        margin-left: 30px;
+        border: none;
+        transition: all 0.3s ease-In;
+    }
+
+    .camps-btn:hover {
+        background-color: black;
+        transform: scale(1.05);
+    }
+
+    .camps-btn {
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 400px;
+        height: 40px;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .donate-btn:hover {
+        background-color: black;
+        transform: scale(1.05);
+    }
+
+    #importantImg {
+        width: 100%;
+        height: 700px;
+        background-image: url('relief.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        margin: 20px auto;
+    }
+
+    #headBtn {
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 120px;
+        margin-top: 20px;
+        height: 40px;
+        border: none;
+        transition: all 0.3s ease-In;
+    }
+
+    #headBtn:hover {
+        background-color: black;
+        transform: scale(1.05);
+    }
+</style>
+
+<body>
+
+    <!-- Sponsor an education journey section -->
+    <div class="container" style="">
+        <div class="heading">Sponsor an education journey — One donation can change a life — <span
+                id="donate">DonateNow!</span>
+        </div>
+
+        <!-- navbar section with 3 div's -->
+        <div
+            style="width: 90%; height: 80px; background-color: #1267B5; align-items: center; justify-content: center; border-radius: 50px; margin: 20px auto; display: flex;">
+
+            <div style="margin-left: 50px; width: 20%;	">
+                <img src="heading.png" alt="image" width="200px" height="70px" />
+            </div>
+
+            <div style="width: 50%">
+                <ul style="color: white">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blogs">Blogs</a></li>
+                    <li><a href="/causes">Causes</a></li>
+                    <li><a href="/camps">Camps</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div style="width: 50%; display: flex; right: 0'">
+                <img src="addToCart.png" alt="image" width="200px" height="70px" />
+                <button id="headBtn">Donate Now!</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- tabeer foundation image section-->
+    <div class="foundation"> <img class="img1" src="capture.png" alt="image" /></div>
+
+    <!-- Be the spark behind someone’s smile section -->
+    <div class="donateContainer">
+        <h2 style="text-align: center; color: white;">Be the spark behind someone’s smile—<span style="color:red">give
+                to charity</span> and help patients who truly need it.</h2>
+        <div class="donateChildContainer">
+
+            <div style="text-align: center; color: white">
+                <h2>Total <span style="color:red">funds needed</span> for all registered campaigns</h2>
+                <h2><span style="color:red; font-size: 50px;">$418.34 K</span></h2>
+            </div>
+            <Button id="btn2">Donate Now!</Button>
+        </div>
+    </div>
+
+    <!-- RaisedCauses section -->
+    <div class="raisedCauses">
+
+        <div id="relief" style=" width: 40%; height: 400px;"></div>
+
+        <div style=" width: 50%; height: 400px; overflow: auto;">
+            <h1 style="font-size: 50px; text-align: center; margin-top: -5px;">RaisedCauses</h1>
+            <div id="raisedCauses">
+                <div
+                    style="border: 2px solid gray; border-radius:20px; width: 98%; padding: 5px; height: 100px; display: flex; gap: 10px;">
+                    <img style="border-radius: 10px;" src="relief.png" height="100px" width="150px" alt="image" />
+                    <h2 style="width: 400px;">Back to School Educational Camp - Layyah</h2>
+                    <p style="color: blue; width: 200px;">Full Plate Food Donation – Killa Abdullah</p>
+                    <button class="donate-btn">Donate Now!</button>
+                </div>
+                <div
+                    style="border: 2px solid gray; border-radius:20px; width: 98%; padding: 5px; height: 100px; display: flex; gap: 10px;">
+                    <img style="border-radius: 10px;" src="relief.png" height="100px" width="150px" alt="image" />
+                    <h2 style="width: 400px;">Back to School Educational Camp - Layyah</h2>
+                    <p style="color: blue; width: 200px;">Full Plate Food Donation – Killa Abdullah</p>
+                    <button class="donate-btn">Donate Now!</button>
+                </div>
+                <div
+                    style="border: 2px solid gray; border-radius:20px; width: 98%; padding: 5px; height: 100px; display: flex; gap: 10px;">
+                    <img style="border-radius: 10px;" src="relief.png" height="100px" width="150px" alt="image" />
+                    <h2 style="width: 400px;">Back to School Educational Camp - Layyah</h2>
+                    <p style="color: blue; width: 200px;">Full Plate Food Donation – Killa Abdullah</p>
+                    <button class="donate-btn">Donate Now!</button>
+                </div>
+                <div
+                    style="border: 2px solid gray; border-radius:20px; width: 98%; padding: 5px; height: 100px; display: flex; gap: 10px;">
+                    <img style="border-radius: 10px;" src="relief.png" height="100px" width="150px" alt="image" />
+                    <h2 style="width: 400px;">Back to School Educational Camp - Layyah</h2>
+                    <p style="color: blue; width: 200px;">Full Plate Food Donation – Killa Abdullah</p>
+                    <button class="donate-btn">Donate Now!</button>
+                </div>
+                <div
+                    style="border: 2px solid gray; border-radius:20px; width: 98%; padding: 5px; height: 100px; display: flex; gap: 10px;">
+                    <img style="border-radius: 10px;" src="relief.png" height="100px" width="150px" alt="image" />
+                    <h2 style="width: 400px;">Back to School Educational Camp - Layyah</h2>
+                    <p style="color: blue; width: 200px;">Full Plate Food Donation – Killa Abdullah</p>
+                    <button class="donate-btn">Donate Now!</button>
+                </div>
+                <div
+                    style="border: 2px solid gray; border-radius:20px; width: 98%; padding: 5px; height: 100px; display: flex; gap: 10px;">
+                    <img style="border-radius: 10px;" src="relief.png" height="100px" width="150px" alt="image" />
+                    <h2 style="width: 400px;">Back to School Educational Camp - Layyah</h2>
+                    <p style="color: blue; width: 200px;">Full Plate Food Donation – Killa Abdullah</p>
+                    <button class="donate-btn">Donate Now!</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- zakat calculator section -->
+    <div>
+        <div style="display: flex; margin: 20px auto;">
+            <div style="width:50%; height: 600px; text-align: center;">
+
+
+                <h1>For <span style="color:red">Bank</span> Transfer</h1>
+                <p><span style="color:red">Bank Title</span>: Tabeer Foundation for Change</p>
+                <p><span style="color:red">IBAN</span>: PK34ALFH5905005002452976</p>
+                <p><span style="color:red">A/C</span>: 59055002452976</p>
+
+                <p><span
+                        style="color:Green; border: 3px solid green; border-radius: 10px; padding: 10px; font-weight: bold; ">100%
+                        Secure
+                        Payment Certificate</span></p>
+            </div>
+
+
+            <div style="width:55%; height: 600px; text-align: center;">
+
+
+                <h1>Zakat<span style="color:red">Estimator</span></h1>
+                <div
+                    style="width: 60%; background-color: lightgray; border-radius: 20px; padding: 20px;  overflow: auto;">
+
+                    <div style="height: 400px;">
+
+                        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+                            <p style="margin: 0; font-size: 12px;">Nisab Basis</p>
+
+                            <select
+                                style="width: 50%; height: 30px; border-radius: 10px; border-style: none;  font-size: 12px;">
+                                <option value="gold">Gold Nisab</option>
+                                <option value="silver">Silver Nisab</option>
+                            </select>
+                        </div>
+
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Zakaat Rate</p>
+
+                            <input type="number" placeholder="0.025"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Gold Rate (per gram)</p>
+
+                            <input type="number" placeholder="e.g. 2500"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Gold (grams)</p>
+
+                            <input type="number" placeholder="0"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Silver Rate (per gram)</p>
+
+                            <input type="number" placeholder="e.g. 300"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Silver (grams)</p>
+
+                            <input type="number" placeholder="0"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Cash in hand</p>
+
+                            <input type="number" placeholder="0"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Bank balance</p>
+
+                            <input type="number" placeholder="0"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+
+                        <h3 style="text-align: left; font-size: 14px; color:#1267B5;">Liabilities (Minus)</h3>
+
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Total Debts / Payables</p>
+
+                            <input type="number" placeholder="0"
+                                style="width: 48%; height:28px; border-radius: 10px; border-style: none;" />
+                        </div>
+
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-top: 10px;">
+                            <button
+                                style="width: 48%; height: 30px; border-radius: 10px; border-style: none; background-color: #1267B5; color: white;">Calculate</button>
+                            <button
+                                style="width: 48%; height:30px; border-radius: 10px; border-style: none; background-color: #f0f0f0; color: #1267B5;">Reset</button>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px; padding: 10px 10px; background-color: #fff; height: 15px; border-radius: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Total Assets</p>
+                            <p style="margin: 0; font-size: 15px; font-weight: bold;">0.00</p>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px; padding: 10px 10px; background-color: #fff; height: 15px; border-radius: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Total Liabilities</p>
+                            <p style="margin: 0; font-size: 15px; font-weight: bold;">0.00</p>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px; padding: 10px 10px; background-color: #fff; height: 15px; border-radius: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Net Zakaatable</p>
+                            <p style="margin: 0; font-size: 15px; font-weight: bold;">0.00</p>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px; padding: 10px 10px; background-color: #fff; height: 15px; border-radius: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Nisab Threshold</p>
+                            <p style="margin: 0; font-size: 15px; font-weight: bold;">0.00</p>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px; padding: 10px 10px; background-color: #fff; height: 15px; border-radius: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Status</p>
+                            <p style="margin: 0; font-size: 15px; font-weight: bold; color: brown;">Set Gold/Silver rate first</p>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; margin-top: 10px; margin-bottom: 10px; padding: 10px 10px; background-color: #fff; height: 15px; border-radius: 10px;">
+                            <p style="margin: 0; font-size: 12px;">Zakaat Due</p>
+                            <p style="margin: 0; font-size: 15px; font-weight: bold;">0.00</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!-- important note section -->
+    <div id="importantImg">
+        <div style="display: flex;">
+            <div style="width:50%; height: 600px;">
+            </div>
+
+            <div
+                style="width:50%; height: 600px; border: 1px solid lightgray; border-radius: 10px; background-color: gray;">
+                <div style="display: flex; margin: 30px 20px;  gap: 15px;">
+                    <div
+                        style="width:50%; height:250px; border-radius:10px; background-color:#1267B5; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+
+                        <h1 style="color: white">300+</h1>
+                        <h1 style="color: white">Trending Stories</h1>
+                    </div>
+
+                    <div
+                        style="width:50%; height: 250px; border-radius: 10px; background-color: white; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                        <div></div>
+                        <h1 style="color: #1267B5">$45,333</h1>
+                        <h1 style="color: #1267B5">FundsSpent</h1>
+                    </div>
+                </div>
+                <div style="display: flex; margin: 30px 20px;  gap: 15px;">
+                    <div
+                        style="width:50%; height: 250px; border-radius: 10px; background-color: white; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+                        <div></div>
+                        <h1 style="color: #1267B5">300+</h1>
+                        <h1 style="color: #1267B5">MedicalCampsOrganized</h1>
+                    </div>
+                    <div
+                        style="width:50%; height:250px; border-radius:10px; background-color:#1267B5; display:flex; flex-direction:column; justify-content:center; align-items:center;">
+
+                        <h1 style="color: white">370,222</h1>
+                        <h1 style="color: white">FreePatientsTreated</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div style="width: 100%; margin-top: -40px;">
+        <img src="impNote.png" width="100%" height="150px" alt="image" />
+    </div>
+
+
+    <!-- camps section -->
+    <div style="width:85%; height: 500px; margin: 100px auto; background-color: #fff;">
+
+
+        <h1 style="font-size: 50px; text-align: center; margin-top: -5px;">Educational Camps</h1>
+        <div style="display: flex; gap: 30px;">
+            <div
+                style="border: 1px solid lightgray; border-radius:20px; width: 400px; padding: 5px; height: 350px; gap: 10px;">
+                <img style="border-radius: 10px;" src="relief.png" height="150px" width="400px" alt="image" />
+                <h3 style="width: 400px;">The Power of Educational Camps in Rural Pakistan: Empowering Minds for a
+                    Better Future</h3>
+                <p style="color: ink; width: 400px;">The Power of Educational Camps in Rural Pakistan: Empowering Minds
+                    for a Better Future Education is the…</p>
+                <button class="camps-btn">Donate Now!</button>
+            </div>
+            <div
+                style="border: 1px solid lightgray; border-radius:20px; width: 400px; padding: 5px; height: 350px; gap: 10px;">
+                <img style="border-radius: 10px;" src="relief.png" height="150px" width="400px" alt="image" />
+                <h3 style="width: 400px;">The Impact of Medical Camps in Rural Pakistan: Bringing Healthcare to Those in
+                    Need</h3>
+                <p style="color: ink; width: 400px;">The Impact of Medical Camps in Rural Pakistan: Bringing Healthcare
+                    to Those in Need In many parts of…</p>
+                <button style="" class="camps-btn">Donate Now!</button>
+            </div>
+
+            <div
+                style="border: 1px solid lightgray; border-radius:20px; width: 400px; padding: 5px; height: 350px; gap: 10px;">
+                <img style="border-radius: 10px;" src="relief.png" height="150px" width="400px" alt="image" />
+                <h3 style="width: 400px;">The Impact of Food Camps in Rural Pakistan: A Lifeline for Vulnerable
+                    Communities</h3>
+                <p style="color: ink; width: 400px;">The Impact of Food Camps in Rural Pakistan: A Lifeline for
+                    Vulnerable Communities In rural parts of Pakistan,…</p>
+                <button class="camps-btn">Donate Now!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- blogs section -->
+    <div style="width:85%; height: 500px; margin: 20px auto;">
+
+
+        <h1 style="font-size: 50px; text-align: center; margin-top: -5px;">Educational Blogs</h1>
+        <div style="display: flex; gap: 30px;">
+            <div
+                style="border: 1px solid lightgray; border-radius:20px; width: 400px; padding: 5px; height: 350px; gap: 10px;">
+                <img style="border-radius: 10px;" src="relief.png" height="150px" width="400px" alt="image" />
+                <h3 style="width: 400px;">Girls’ Education: Building a Strong Nation</h3>
+                <p style="color: ink; width: 400px;">Girls’ Education: Building a Strong Nation Educating a girl is not
+                    just about sending her to school —it is about empowering families…</p>
+                <button class="camps-btn">Donate Now!</button>
+            </div>
+            <div
+                style="border: 1px solid lightgray; border-radius:20px; width: 400px; padding: 5px; height: 350px; gap: 10px;">
+                <img style="border-radius: 10px;" src="relief.png" height="150px" width="400px" alt="image" />
+                <h3 style="width: 400px;">Case Study: One-Day Medical Camp Impact</h3>
+                <p style="color: ink; width: 400px;">Case Study: One-Day Medical Camp Impact In underserved communities,
+                    access to healthcare is often limited not by distance…</p>
+                <button style="" class="camps-btn">Donate Now!</button>
+            </div>
+
+            <div
+                style="border: 1px solid lightgray; border-radius:20px; width: 400px; padding: 5px; height: 350px; gap: 10px;">
+                <img style="border-radius: 10px;" src="relief.png" height="150px" width="400px" alt="image" />
+                <h3 style="width: 400px;">The Water Crisis in Pakistan: Why Millions Still Lack Safe Drinking Water</h3>
+                <p style="color: ink; width: 400px;">The Water Crisis in Pakistan: Why Millions Still Lack Safe Drinking
+                    Water Water is essential for life —,…</p>
+                <button class="camps-btn">Donate Now!</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- who we are section -->
+    <div style="width:70%; height: 500px; margin: 10px auto;">
+        <h1 style="text-align: center; font-size: 50px;">Who <span style="color:orange;">We</span> Are
+        </h1>
+
+        <div style="height: 400px; padding: 10px; overflow: auto; border-radius: 10px; border: 1px solid gray;">
+
+            <h1>About Tabeer Foundation for Change</h1>
+            <p style="font-size:20px;">Tabeer Foundation for Change was born from a simple yet powerful
+                belief: <span style="color:orange;">real change begins when hope reaches the roots of
+                    society</span> .
+                In Pakistan’s vast rural landscapes—where millions of families rely on land, livestock,
+                and small enterprises for survival—opportunity often remains out of reach. Tabeer
+                Foundation exists to bridge this gap. </p>
+
+            <p style="font-size:20px;">Registered under <span style="color:orange;"> Section 42 of the
+                    Companies Act with SECP, </span>Tabeer Foundation for Change is a non-profit
+                organization dedicated to
+                empowering underserved and marginalized communities through sustainable socio-economic
+                development. With nearly <span style="color:orange;"> 38% of Pakistan’s workforce
+                    dependent on the rural economy, </span> the foundation
+                places rural livelihoods at the heart of its mission.</p>
+
+            <p style="font-size:20px;">From a farmer struggling to sustain his crops, to a rural woman
+                dreaming of turning her skills into a livelihood, Tabeer Foundation works closely with
+                communities to transform challenges into opportunities. By promoting sustainable
+                agriculture, livestock development, cottage industries, and rural enterprises, the
+                foundation enables individuals not just to survive—but to thrive with dignity.</p>
+
+            <p style="font-size:20px;">Through innovation, community participation, and strategic
+                partnerships, Tabeer Foundation for Change strives to break the cycle of poverty, create
+                meaningful employment, and nurture self-reliant communities. Each initiative is guided
+                by empathy, inclusivity, and the conviction that lasting impact comes from empowering
+                people to shape their own futures.</p>
+
+            <hr style="border: none; height: 1px; background-color: lightgray; margin: 40px 0;">
+
+            <h1>Our Vision</h1>
+            <p style="font-size:20px;">A Pakistan where <span style="color:orange;">every
+                    individual—regardless of geography or background—has equal access to
+                    opportunities,</span> .
+                sustainable livelihoods, and the power to build a dignified, prosperous life for
+                themselves and their communities. </p>
+
+
+            <hr style="border: none; height: 1px; background-color: lightgray; margin: 40px 0;">
+
+            <h1>Our Mission</h1>
+            <p style="font-size:20px;">To alleviate poverty and drive inclusive rural development by:
+            </p>
+            <ul style="display: flex; list-style: disc;">
+                <li>Empowering rural communities through sustainable agriculture, livestock, and
+                    enterprise development</li>
+                <li>Creating income-generating opportunities that promote self-reliance and resilience
+                </li>
+                <li>Supporting cottage industries and small businesses to strengthen local economies
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+    <!-- Footer section -->
+    <div style=" margin-top: 50px;">
+        <img src="footer.png" height="200px" width="100%" alt="image" />
+        <h1 style="text-align: center;">Copyright © 2025 tabeerfoundation.org</h1>
+        <h1 style="text-align: center;">Devloped by <span style="color:orange;">KOT Enterprises</span>
+        </h1>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
