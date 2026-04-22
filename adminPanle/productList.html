@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+</head>
+
+<body>
+    <h1>Product List</h1>
+
+    <table border="1" id="productTable" style="margin:auto; border-collapse: collapse; width:80%;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>SKU</th>
+                <th>Quantity</th>
+                <th>Price</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+<script>
+
+    let products = JSON.parse(localStorage.getItem("products")) || [];
+    let tableBody = document.querySelector("#productTable tbody");
+    tableBody.innerHTML = "";
+
+    let tableRow = `<tr>
+        <td>${products.productName}</td>
+        <td>${products.productSKU}</td>
+        <td>${products.productQuantity}</td>
+        <td>${products.productPrice}</td>
+        </tr>`
+
+</script>
+
+<script src="newPoductAdd.js"></script>
+</html>
