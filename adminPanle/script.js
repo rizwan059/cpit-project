@@ -6,7 +6,7 @@ function adminLogin() {
     if (user === adminCredential.username && pass === adminCredential.password) {
         
 
-        localStorage.getItemItem("isLoggedIn", "true");
+        localStorage.setItem("isLoggedIn", "true");
 
         window.location.href = "productAdd.html";
 
