@@ -8,7 +8,7 @@ function adminLogin() {
 
         localStorage.setItem("isLoggedIn", "true");
 
-        window.location.href = "productAdd.html";
+        window.location.href = "dashboard.html";
 
     } else {
         alert("Invalid username or password.");
